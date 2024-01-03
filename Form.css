@@ -1,0 +1,70 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 auto;
+    /* Márgenes automáticos para centrar horizontalmente */
+    max-width: 500px;
+    /* Establecer un ancho máximo para el formulario */
+    background-color: rgb(243, 247, 247);
+
+
+}
+
+/* pseudoclases */
+input:focus {
+    background-color: rgb(220, 220, 240);
+    /*Sirve para que cuando de click cambie
+    cambie de color*/
+}
+
+
+
+input {
+
+    background-color: #f0f0f0;
+    /* Incremento del contraste con el fondo */
+    margin-bottom: 15px;
+    /* Espaciado entre elementos */
+    padding: 5px;
+    /* Añadir espacio interno */
+    border: solid #ccc;
+    /* Borde más suave */
+
+
+}
+
+label {
+    display: block;
+    /* Para que cada label esté en una línea */
+    margin-bottom: 5px;
+    /* Espaciado entre etiquetas */
+    font-weight: bold;
+
+}
+
+
+
+.btn-enviar {
+    padding: 10px 20px;
+    /* Aumentar el espacio interno del botón */
+    margin-top: 15px;
+    /* Espaciado superior para separarlo del resto del formulario */
+    display: block;
+    /* Para ocupar todo el ancho disponible */
+    margin: auto;
+    /* Centrado horizontal */
+
+}
+
+.btn-enviar:focus {
+    background-color: rgb(201, 134, 185);
+    /*Sirve para que cuando de click cambie
+    cambie de color*/
+
+}
