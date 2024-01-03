@@ -88,3 +88,20 @@ a{
 
 }
 
+/* Otros estilos CSS que tengas */
+
+body {
+    display: flex;
+}
+
+main {
+    flex: 1; /* Para ocupar el espacio restante */
+}
+
+aside {
+    width: 25%; /* Ancho del aside */
+    background-color: beige; /* Color de fondo opcional */
+    text-shadow: 0cap;
+}
+
+/* Otros estilos CSS que tengas */
